@@ -11,8 +11,67 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #ccc;
+}
+
+section {
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 1.5rem 0;
+}
+
+img {
+  display: block;
+  width: 5rem;
+}
+
+hgroup {
+  width: 16rem;
+}
+
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  width: 24rem;
+}
+
+li a {
+  background-color: #444;
+  color: #fff;
+  padding: .5rem 1rem .6rem;
+  text-decoration: none;
 }
